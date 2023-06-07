@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form1</title>
+  </head>
+  <body>
+    <h4>Event Registration</h4>
+    <form>
+        <fieldset>
+            <legend>Persnal Information</legend>
+      <label for="fname">Full Name :</label>
+      <input type="text" name="fullname" id="fname" />
+      <br /><br />
+      <label for="email">Email Id :</label>
+      <input type="email" name="email" id="email" />
+      <br /><br />
+
+      <label for="phone">Phone :</label>
+      <input type="text" name="phone" id="phone" />
+      <br><br>
+      <label for="dob">Date Of Birt</label>
+      <input type="date" name="dob" id="dob">
+
+    </fieldset>
+      <br /><br />
+      <label for="ocupation">Ocupation :</label>
+      <select name="Ocupation" id="Ocupation">
+        <option value="student">Student</option>
+        <option value="employed">Employed</option>
+        <option value="unemployed">Unemployed</option>
+      </select>
+      <br><br>
+      <fieldset>
+        <legend>Availibility</legend><br>
+        <label for="radio1">Full Time</label>
+        <input type="radio" name="radio" id="radio1">
+        <br><br>
+        <label for="radio2">Part Time</label>
+        <input type="radio" name="radio" id="radio2">
+
+      </fieldset>
+
+      <br /><br />
+      <h4>Topic Of Interest</h4>
+      <label for="html">Html</label>
+      <input type="checkbox" name="Stack1" id="html" />
+      <br /><br />
+      <label for="css">CSS</label>
+      <input type="checkbox" name="Stack2" id="css" />
+      <br /><br />
+      <label for="js">Javascript</label>
+      <input type="checkbox" name="Stack3" id="js" />
+      <br /><br />
+      <label for="resume">Upload Your Resume :</label>
+      <input type="file" name="resume" id="resume" /><br /><br />
+      <label for="experince">Years Of Experince :</label>
+      <input type="number" name="exp" au id="experince" min="0" max="10" />
+      <br /><br />
+      <textarea
+        name="comment"
+        id="comment"
+        cols="30"
+        rows="10"
+        placeholder="Write about the experince you gained"
+      ></textarea>
+      <br /><br />
+      <input type="submit" name="submit" id="submitbtn" />
+    </form>
+  </body>
+</html>
