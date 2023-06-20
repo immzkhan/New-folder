@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+div{
+    /* height: 786px;
+    width: 800px; */
+  /* background-image: url(https://images.wsj.net/im-10800/social);
+background-position:;
+background-repeat: no-repeat;
+object-fit: cover;
+background-position: center, center; */
+background: url(https://images.wsj.net/im-10800/social) red center no-repeat ;
+
+}
