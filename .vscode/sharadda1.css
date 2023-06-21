@@ -1,17 +1,47 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-
-div{
-    /* height: 786px;
-    width: 800px; */
+div {
+  list-style:none;
+  height: 100vh;
+  width: 100%;
   /* background-image: url(https://images.wsj.net/im-10800/social);
 background-position:;
 background-repeat: no-repeat;
 object-fit: cover;
 background-position: center, center; */
-background: url(https://images.wsj.net/im-10800/social) red center no-repeat ;
+  background: url(https://images.wsj.net/im-10800/social) center no-repeat;
 
+  object-fit: contain;
+}
+#h{
+  text-align: center;
+  text-decoration: rebeccapurple underline dotted ;
+}
+.para{
+  text-transform: capitalize;
+  text-align:center;
+}
+.h1{
+  text-align: center;
+  text-decoration: rebeccapurple underline dotted ;
+  font-weight: 500;
+}
+.h2{
+  text-align: center;
+  text-decoration: rebeccapurple underline dotted ; font-weight: 600;
+}
+.h3{
+  text-align: center;
+  text-decoration: rebeccapurple underline dotted ; font-weight: 400;
+}
+.h4{
+  text-align: center;
+  text-decoration: rebeccapurple underline dotted ;
+  font:  900;
+}.h5{
+  text-align: center;
+  text-decoration: rebeccapurple underline dotted ;
 }
