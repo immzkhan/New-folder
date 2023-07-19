@@ -1,0 +1,26 @@
+body{
+    height: 100vh;
+}
+.box{ 
+    height: 200px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px Solid black;
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+ 
+#box1{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    z-index: 0;
+}
+#box2{
+    position: relative;
+    z-index:1;
+}
+    
+
+
