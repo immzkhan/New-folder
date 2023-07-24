@@ -1,0 +1,27 @@
+nav{
+    background-color: blue;
+}
+ul{
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: aqua;
+}
+li{
+  list-style-type: none;
+  /* display: inline; */
+}
+main{ height: 400px;
+    width: 200px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    background-color: pink;
+}
