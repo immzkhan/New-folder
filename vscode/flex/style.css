@@ -15,7 +15,7 @@ li{
   list-style-type: none;
   /* display: inline; */
 }
-main{ height: 400px;
+main{ height: 300px;
     width: 200px;
     background-color: red;
     display: flex;
